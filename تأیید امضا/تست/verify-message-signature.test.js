@@ -1,9 +1,9 @@
-import {verifyMessageSignature} from '../lib/albedo.signature.verification'
+import {mohamadrezakheradmand} from '../lib/albedo.signature.verification'
 
 const correctData = {
     pubkey: 'GDWPMRQSLXNEHCXC7RTISZAHULB7FDDIOPR6CF5B5IUWOQXN2CUWN4LO',
     message: 'DGmk7s8gkhXMqRNsiCBanwL76Kt+5+WUzAOlWoh0nDs=',
-    signature: '049a26b40c1a30be1cef3ef7a64af8ae305e7567ee2cac57e5a494e0036860b81dc417c005e4f4dff6ad6bc52f56f0e61e9d084c2718638bc4f78130fc14d20e'
+    signature: '0x1CF14c9031a6Ae19a03AF5737511Bf2951Ba1d0F'
 }
 
 test('filters malformed input', function () {
